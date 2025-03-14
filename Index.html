@@ -9,7 +9,7 @@
             font-size: 16px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        .container{
+        .cabeca{
             border: 1px solid #b05bad;
             height: 5rem;
             /* box-shadow: .5rem .5rem .3rem .01rem red; */
@@ -37,6 +37,10 @@
             flex-grow: 14;
         }
 
+        .container{
+            display: flex;
+        }
+
         .menu-sandwich {
             flex-grow: 1;
         }
@@ -55,12 +59,14 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="cabeca">
     <div class="item logo">logo</div>
     <div class="item titulo">titulo</div>
     <div class="item menu-sandwich">menu sanduba</div>
     </div>
+    <div class="container">
 <nav class="menu-lateral">Menu lateral</nav>
 <main class="parte-principal">Parte-principal</main>
+</div>
 </body>
 </html>
