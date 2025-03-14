@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container{
+            border: 1px solid #b05bad;
+            height: 5rem;
+            /* box-shadow: .5rem .5rem .3rem .01rem red; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            align-items: start;
+        }
+
+        .item{
+            background-color: #2d8291;
+            color: orange;
+            font-weight: bold;
+            padding: 1rem;
+            margin: 0.1rem;
+            width: 3rem;/*largura*/
+            height: 3rem;/*altura*/
+            border-radius: .5rem;
+        }
+        .logo{
+            flex-grow: 1;
+        }
+
+        .titulo{
+            flex-grow: 14;
+        }
+
+        .menu-sandwich {
+            flex-grow: 1;
+        }
+        .menu-lateral{
+            border: 3px solid;
+        }
+
+        .parte-principal{
+            border: 3px dashed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="item logo">logo</div>
+    <div class="item titulo">titulo</div>
+    <div class="item menu-sandwich">menu sanduba</div>
+    </div>
+<nav class="menu-lateral">Menu lateral</nav>
+<main class="parte-principal">Parte-principal</main>
+</body>
+</html>
